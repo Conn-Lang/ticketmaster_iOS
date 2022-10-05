@@ -1,0 +1,6 @@
+framework module Pods_ticketmaster_ios_ticketmaster_iosUITests {
+  umbrella header "Pods-ticketmaster_ios-ticketmaster_iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
