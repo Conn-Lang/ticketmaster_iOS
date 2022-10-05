@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ticketmaster_ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ticketmaster_ios
+  pod 'GoogleSignIn'
+
+  target 'ticketmaster_iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ticketmaster_iosUITests' do
+    # Pods for testing
+  end
+
+end

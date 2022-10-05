@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80039968272C33BE00B6E852 /* RaffleWinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80039967272C33BE00B6E852 /* RaffleWinner.swift */; };
+		80100E53271865B8000C6B67 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80100E52271865B8000C6B67 /* Ticket.swift */; };
+		801A00DE2731793800664C13 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A00DD2731793800664C13 /* Student.swift */; };
+		805EFEA528074B1800618430 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 805EFEA428074B1800618430 /* CodeScanner */; };
+		8067224927B19F92007FF360 /* TeacherRafflePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067224827B19F92007FF360 /* TeacherRafflePage.swift */; };
+		8067224B27B19F9F007FF360 /* RaffleTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067224A27B19F9F007FF360 /* RaffleTickets.swift */; };
+		80703D142715C7DF0024BB5C /* ViewTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80703D132715C7DF0024BB5C /* ViewTickets.swift */; };
+		80740DC6278492CB00CDD527 /* BadgesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80740DC5278492CB00CDD527 /* BadgesPage.swift */; };
+		80740DC82784E08400CDD527 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80740DC72784E08400CDD527 /* Badge.swift */; };
+		80750C0A273EB4D1008F2E38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80750C09273EB4D1008F2E38 /* SystemConfiguration.framework */; };
+		80750C0C273EB4DD008F2E38 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80750C0B273EB4DD008F2E38 /* StoreKit.framework */; };
+		80955DC6270B3D8F00F98B10 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80955DC5270B3D8F00F98B10 /* WelcomePage.swift */; };
+		80A4323028075744009D0732 /* NameSearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A4322F28075744009D0732 /* NameSearchList.swift */; };
+		80C753F92744054A00BD6ADD /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C753F82744054A00BD6ADD /* Contacts.framework */; };
+		80DE70AB273C432700D626CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80DE70AA273C432700D626CB /* GoogleService-Info.plist */; };
+		80E39FC527DBA543007D8DF7 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E39FC427DBA542007D8DF7 /* BottomSheet.swift */; };
+		80F59C8C270F3C260072AD07 /* TradeWinds-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80F59C8A270F3A8A0072AD07 /* TradeWinds-Regular.ttf */; };
+		942D2E365D2C9999B0AAD2C6 /* Pods_ticketmaster_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D1B4CA8E4480B0C048BE76 /* Pods_ticketmaster_ios.framework */; };
+		B6F2D88566FAABA41BE00373 /* Pods_ticketmaster_ios_ticketmaster_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408F3004A72DADDB59C5202F /* Pods_ticketmaster_ios_ticketmaster_iosUITests.framework */; };
+		C5404D78C43AA8FE1A9829CA /* Pods_ticketmaster_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5E193FB0398E75A76F7AB0 /* Pods_ticketmaster_iosTests.framework */; };
+		F23905CD27219FB200CC1CF9 /* SendTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23905CC27219FB200CC1CF9 /* SendTickets.swift */; };
+		F2556359273EB49F00815E04 /* ViewGivenTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2556358273EB49F00815E04 /* ViewGivenTickets.swift */; };
+		F25D2C72280EF83600F6E1C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D2C71280EF83600F6E1C8 /* Constants.swift */; };
+		F29BF98E270355090038F33F /* ticketmaster_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BF98D270355090038F33F /* ticketmaster_iosApp.swift */; };
+		F29BF990270355090038F33F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BF98F270355090038F33F /* ContentView.swift */; };
+		F29BF9922703550B0038F33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29BF9912703550B0038F33F /* Assets.xcassets */; };
+		F29BF9952703550B0038F33F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29BF9942703550B0038F33F /* Preview Assets.xcassets */; };
+		F29BF99F2703550B0038F33F /* ticketmaster_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BF99E2703550B0038F33F /* ticketmaster_iosTests.swift */; };
+		F29BF9A92703550B0038F33F /* ticketmaster_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BF9A82703550B0038F33F /* ticketmaster_iosUITests.swift */; };
+		F29BF9AB2703550B0038F33F /* ticketmaster_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29BF9AA2703550B0038F33F /* ticketmaster_iosUITestsLaunchTests.swift */; };
+		F2D952342799ACD900716AD8 /* AllTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D952332799ACD900716AD8 /* AllTicketView.swift */; };
+		F2DA23EC270B393D000D27F5 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DA23EB270B393D000D27F5 /* HomePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29BF99B2703550B0038F33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29BF982270355090038F33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29BF989270355090038F33F;
+			remoteInfo = ticketmaster_ios;
+		};
+		F29BF9A52703550B0038F33F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29BF982270355090038F33F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29BF989270355090038F33F;
+			remoteInfo = ticketmaster_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13843660BB3FCE1DA13ED36B /* Pods-ticketmaster_ios-ticketmaster_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_ios-ticketmaster_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-ticketmaster_ios-ticketmaster_iosUITests/Pods-ticketmaster_ios-ticketmaster_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		408F3004A72DADDB59C5202F /* Pods_ticketmaster_ios_ticketmaster_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ticketmaster_ios_ticketmaster_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55808AB1670203F897C0FB53 /* Pods-ticketmaster_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-ticketmaster_iosTests/Pods-ticketmaster_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E9BA203A5076F3DAB969F40 /* Pods-ticketmaster_ios-ticketmaster_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_ios-ticketmaster_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-ticketmaster_ios-ticketmaster_iosUITests/Pods-ticketmaster_ios-ticketmaster_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80039967272C33BE00B6E852 /* RaffleWinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleWinner.swift; sourceTree = "<group>"; };
+		80100E52271865B8000C6B67 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		801A00DD2731793800664C13 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		8067224827B19F92007FF360 /* TeacherRafflePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherRafflePage.swift; sourceTree = "<group>"; };
+		8067224A27B19F9F007FF360 /* RaffleTickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaffleTickets.swift; sourceTree = "<group>"; };
+		80703D132715C7DF0024BB5C /* ViewTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTickets.swift; sourceTree = "<group>"; usesTabs = 0; };
+		80740DC5278492CB00CDD527 /* BadgesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesPage.swift; sourceTree = "<group>"; };
+		80740DC72784E08400CDD527 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		80750C09273EB4D1008F2E38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80750C0B273EB4DD008F2E38 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		80750C0D273EB4E5008F2E38 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		80955DC5270B3D8F00F98B10 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		80A4322F28075744009D0732 /* NameSearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSearchList.swift; sourceTree = "<group>"; };
+		80C753F82744054A00BD6ADD /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		80DE70AA273C432700D626CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80E39FC427DBA542007D8DF7 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		80F59C8A270F3A8A0072AD07 /* TradeWinds-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeWinds-Regular.ttf"; sourceTree = "<group>"; };
+		A4D1B4CA8E4480B0C048BE76 /* Pods_ticketmaster_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ticketmaster_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2695130759E0E42B4A89C9B /* Pods-ticketmaster_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_ios.release.xcconfig"; path = "Target Support Files/Pods-ticketmaster_ios/Pods-ticketmaster_ios.release.xcconfig"; sourceTree = "<group>"; };
+		C52935375D2435EE3E266424 /* Pods-ticketmaster_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_iosTests.release.xcconfig"; path = "Target Support Files/Pods-ticketmaster_iosTests/Pods-ticketmaster_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		F23905CC27219FB200CC1CF9 /* SendTickets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendTickets.swift; sourceTree = "<group>"; };
+		F2556358273EB49F00815E04 /* ViewGivenTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewGivenTickets.swift; sourceTree = "<group>"; };
+		F25D2C71280EF83600F6E1C8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F29BF98A270355090038F33F /* ticketmaster_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticketmaster_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29BF98D270355090038F33F /* ticketmaster_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketmaster_iosApp.swift; sourceTree = "<group>"; };
+		F29BF98F270355090038F33F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F29BF9912703550B0038F33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29BF9942703550B0038F33F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F29BF99A2703550B0038F33F /* ticketmaster_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticketmaster_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29BF99E2703550B0038F33F /* ticketmaster_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketmaster_iosTests.swift; sourceTree = "<group>"; };
+		F29BF9A42703550B0038F33F /* ticketmaster_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticketmaster_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29BF9A82703550B0038F33F /* ticketmaster_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketmaster_iosUITests.swift; sourceTree = "<group>"; };
+		F29BF9AA2703550B0038F33F /* ticketmaster_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketmaster_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2D952332799ACD900716AD8 /* AllTicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTicketView.swift; sourceTree = "<group>"; };
+		F2DA23EB270B393D000D27F5 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		FD5E193FB0398E75A76F7AB0 /* Pods_ticketmaster_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ticketmaster_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF798FC651E872D4F57037D /* Pods-ticketmaster_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ticketmaster_ios.debug.xcconfig"; path = "Target Support Files/Pods-ticketmaster_ios/Pods-ticketmaster_ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29BF987270355090038F33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80750C0C273EB4DD008F2E38 /* StoreKit.framework in Frameworks */,
+				80C753F92744054A00BD6ADD /* Contacts.framework in Frameworks */,
+				80750C0A273EB4D1008F2E38 /* SystemConfiguration.framework in Frameworks */,
+				942D2E365D2C9999B0AAD2C6 /* Pods_ticketmaster_ios.framework in Frameworks */,
+				805EFEA528074B1800618430 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9972703550B0038F33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5404D78C43AA8FE1A9829CA /* Pods_ticketmaster_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9A12703550B0038F33F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F2D88566FAABA41BE00373 /* Pods_ticketmaster_ios_ticketmaster_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1275B1DEF9276CAEB3D70DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C753F82744054A00BD6ADD /* Contacts.framework */,
+				80750C0D273EB4E5008F2E38 /* AddressBook.framework */,
+				80750C0B273EB4DD008F2E38 /* StoreKit.framework */,
+				80750C09273EB4D1008F2E38 /* SystemConfiguration.framework */,
+				A4D1B4CA8E4480B0C048BE76 /* Pods_ticketmaster_ios.framework */,
+				408F3004A72DADDB59C5202F /* Pods_ticketmaster_ios_ticketmaster_iosUITests.framework */,
+				FD5E193FB0398E75A76F7AB0 /* Pods_ticketmaster_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F123B6449249DF6E2433D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF798FC651E872D4F57037D /* Pods-ticketmaster_ios.debug.xcconfig */,
+				B2695130759E0E42B4A89C9B /* Pods-ticketmaster_ios.release.xcconfig */,
+				6E9BA203A5076F3DAB969F40 /* Pods-ticketmaster_ios-ticketmaster_iosUITests.debug.xcconfig */,
+				13843660BB3FCE1DA13ED36B /* Pods-ticketmaster_ios-ticketmaster_iosUITests.release.xcconfig */,
+				55808AB1670203F897C0FB53 /* Pods-ticketmaster_iosTests.debug.xcconfig */,
+				C52935375D2435EE3E266424 /* Pods-ticketmaster_iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8067224627B19F26007FF360 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		F29BF981270355090038F33F = {
+			isa = PBXGroup;
+			children = (
+				80F59C8A270F3A8A0072AD07 /* TradeWinds-Regular.ttf */,
+				F29BF98C270355090038F33F /* ticketmaster_ios */,
+				F29BF99D2703550B0038F33F /* ticketmaster_iosTests */,
+				F29BF9A72703550B0038F33F /* ticketmaster_iosUITests */,
+				F29BF98B270355090038F33F /* Products */,
+				1F123B6449249DF6E2433D0C /* Pods */,
+				1275B1DEF9276CAEB3D70DE1 /* Frameworks */,
+				8067224627B19F26007FF360 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		F29BF98B270355090038F33F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29BF98A270355090038F33F /* ticketmaster_ios.app */,
+				F29BF99A2703550B0038F33F /* ticketmaster_iosTests.xctest */,
+				F29BF9A42703550B0038F33F /* ticketmaster_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29BF98C270355090038F33F /* ticketmaster_ios */ = {
+			isa = PBXGroup;
+			children = (
+				F29BF98D270355090038F33F /* ticketmaster_iosApp.swift */,
+				F29BF98F270355090038F33F /* ContentView.swift */,
+				F23905CC27219FB200CC1CF9 /* SendTickets.swift */,
+				F25D2C71280EF83600F6E1C8 /* Constants.swift */,
+				80955DC5270B3D8F00F98B10 /* WelcomePage.swift */,
+				80703D132715C7DF0024BB5C /* ViewTickets.swift */,
+				F2DA23EB270B393D000D27F5 /* HomePage.swift */,
+				F2D952332799ACD900716AD8 /* AllTicketView.swift */,
+				8067224A27B19F9F007FF360 /* RaffleTickets.swift */,
+				8067224827B19F92007FF360 /* TeacherRafflePage.swift */,
+				F2556358273EB49F00815E04 /* ViewGivenTickets.swift */,
+				80740DC5278492CB00CDD527 /* BadgesPage.swift */,
+				80039967272C33BE00B6E852 /* RaffleWinner.swift */,
+				80E39FC427DBA542007D8DF7 /* BottomSheet.swift */,
+				801A00DD2731793800664C13 /* Student.swift */,
+				80100E52271865B8000C6B67 /* Ticket.swift */,
+				80740DC72784E08400CDD527 /* Badge.swift */,
+				80A4322F28075744009D0732 /* NameSearchList.swift */,
+				80DE70AA273C432700D626CB /* GoogleService-Info.plist */,
+				F29BF9912703550B0038F33F /* Assets.xcassets */,
+				F29BF9932703550B0038F33F /* Preview Content */,
+			);
+			path = ticketmaster_ios;
+			sourceTree = "<group>";
+		};
+		F29BF9932703550B0038F33F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F29BF9942703550B0038F33F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F29BF99D2703550B0038F33F /* ticketmaster_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29BF99E2703550B0038F33F /* ticketmaster_iosTests.swift */,
+			);
+			path = ticketmaster_iosTests;
+			sourceTree = "<group>";
+		};
+		F29BF9A72703550B0038F33F /* ticketmaster_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29BF9A82703550B0038F33F /* ticketmaster_iosUITests.swift */,
+				F29BF9AA2703550B0038F33F /* ticketmaster_iosUITestsLaunchTests.swift */,
+			);
+			path = ticketmaster_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29BF989270355090038F33F /* ticketmaster_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29BF9AE2703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_ios" */;
+			buildPhases = (
+				7CB7C296B18C72030CA4064B /* [CP] Check Pods Manifest.lock */,
+				F29BF986270355090038F33F /* Sources */,
+				F29BF987270355090038F33F /* Frameworks */,
+				F29BF988270355090038F33F /* Resources */,
+				2D5C4CF0E124DCDBFB7CA50B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ticketmaster_ios;
+			packageProductDependencies = (
+				805EFEA428074B1800618430 /* CodeScanner */,
+			);
+			productName = ticketmaster_ios;
+			productReference = F29BF98A270355090038F33F /* ticketmaster_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29BF9992703550B0038F33F /* ticketmaster_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29BF9B12703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_iosTests" */;
+			buildPhases = (
+				5A83A148A3FF3D1CB80EB6C6 /* [CP] Check Pods Manifest.lock */,
+				F29BF9962703550B0038F33F /* Sources */,
+				F29BF9972703550B0038F33F /* Frameworks */,
+				F29BF9982703550B0038F33F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29BF99C2703550B0038F33F /* PBXTargetDependency */,
+			);
+			name = ticketmaster_iosTests;
+			productName = ticketmaster_iosTests;
+			productReference = F29BF99A2703550B0038F33F /* ticketmaster_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F29BF9A32703550B0038F33F /* ticketmaster_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29BF9B42703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_iosUITests" */;
+			buildPhases = (
+				14E645A2E4C8EDF4A349789C /* [CP] Check Pods Manifest.lock */,
+				F29BF9A02703550B0038F33F /* Sources */,
+				F29BF9A12703550B0038F33F /* Frameworks */,
+				F29BF9A22703550B0038F33F /* Resources */,
+				9539778E9FC0694224E4E6C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29BF9A62703550B0038F33F /* PBXTargetDependency */,
+			);
+			name = ticketmaster_iosUITests;
+			productName = ticketmaster_iosUITests;
+			productReference = F29BF9A42703550B0038F33F /* ticketmaster_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29BF982270355090038F33F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F29BF989270355090038F33F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F29BF9992703550B0038F33F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F29BF989270355090038F33F;
+					};
+					F29BF9A32703550B0038F33F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F29BF989270355090038F33F;
+					};
+				};
+			};
+			buildConfigurationList = F29BF985270355090038F33F /* Build configuration list for PBXProject "ticketmaster_ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29BF981270355090038F33F;
+			packageReferences = (
+				805EFEA328074B1800618430 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = F29BF98B270355090038F33F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29BF989270355090038F33F /* ticketmaster_ios */,
+				F29BF9992703550B0038F33F /* ticketmaster_iosTests */,
+				F29BF9A32703550B0038F33F /* ticketmaster_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29BF988270355090038F33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F59C8C270F3C260072AD07 /* TradeWinds-Regular.ttf in Resources */,
+				F29BF9952703550B0038F33F /* Preview Assets.xcassets in Resources */,
+				80DE70AB273C432700D626CB /* GoogleService-Info.plist in Resources */,
+				F29BF9922703550B0038F33F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9982703550B0038F33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9A22703550B0038F33F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E645A2E4C8EDF4A349789C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ticketmaster_ios-ticketmaster_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5C4CF0E124DCDBFB7CA50B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios/Pods-ticketmaster_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios/Pods-ticketmaster_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios/Pods-ticketmaster_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A83A148A3FF3D1CB80EB6C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ticketmaster_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB7C296B18C72030CA4064B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ticketmaster_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9539778E9FC0694224E4E6C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios-ticketmaster_iosUITests/Pods-ticketmaster_ios-ticketmaster_iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios-ticketmaster_iosUITests/Pods-ticketmaster_ios-ticketmaster_iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ticketmaster_ios-ticketmaster_iosUITests/Pods-ticketmaster_ios-ticketmaster_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29BF986270355090038F33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23905CD27219FB200CC1CF9 /* SendTickets.swift in Sources */,
+				80E39FC527DBA543007D8DF7 /* BottomSheet.swift in Sources */,
+				80955DC6270B3D8F00F98B10 /* WelcomePage.swift in Sources */,
+				8067224927B19F92007FF360 /* TeacherRafflePage.swift in Sources */,
+				80740DC6278492CB00CDD527 /* BadgesPage.swift in Sources */,
+				80039968272C33BE00B6E852 /* RaffleWinner.swift in Sources */,
+				801A00DE2731793800664C13 /* Student.swift in Sources */,
+				F2556359273EB49F00815E04 /* ViewGivenTickets.swift in Sources */,
+				80100E53271865B8000C6B67 /* Ticket.swift in Sources */,
+				80703D142715C7DF0024BB5C /* ViewTickets.swift in Sources */,
+				F29BF990270355090038F33F /* ContentView.swift in Sources */,
+				8067224B27B19F9F007FF360 /* RaffleTickets.swift in Sources */,
+				F2DA23EC270B393D000D27F5 /* HomePage.swift in Sources */,
+				80740DC82784E08400CDD527 /* Badge.swift in Sources */,
+				80A4323028075744009D0732 /* NameSearchList.swift in Sources */,
+				F2D952342799ACD900716AD8 /* AllTicketView.swift in Sources */,
+				F29BF98E270355090038F33F /* ticketmaster_iosApp.swift in Sources */,
+				F25D2C72280EF83600F6E1C8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9962703550B0038F33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29BF99F2703550B0038F33F /* ticketmaster_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BF9A02703550B0038F33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29BF9AB2703550B0038F33F /* ticketmaster_iosUITestsLaunchTests.swift in Sources */,
+				F29BF9A92703550B0038F33F /* ticketmaster_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29BF99C2703550B0038F33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29BF989270355090038F33F /* ticketmaster_ios */;
+			targetProxy = F29BF99B2703550B0038F33F /* PBXContainerItemProxy */;
+		};
+		F29BF9A62703550B0038F33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29BF989270355090038F33F /* ticketmaster_ios */;
+			targetProxy = F29BF9A52703550B0038F33F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F29BF9AC2703550B0038F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29BF9AD2703550B0038F33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29BF9AF2703550B0038F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF798FC651E872D4F57037D /* Pods-ticketmaster_ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ticketmaster_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ticketmaster-ios-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to scan IDs";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29BF9B02703550B0038F33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2695130759E0E42B4A89C9B /* Pods-ticketmaster_ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ticketmaster_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ticketmaster-ios-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to scan IDs";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F29BF9B22703550B0038F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55808AB1670203F897C0FB53 /* Pods-ticketmaster_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticketmaster_ios.app/ticketmaster_ios";
+			};
+			name = Debug;
+		};
+		F29BF9B32703550B0038F33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52935375D2435EE3E266424 /* Pods-ticketmaster_iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticketmaster_ios.app/ticketmaster_ios";
+			};
+			name = Release;
+		};
+		F29BF9B52703550B0038F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9BA203A5076F3DAB969F40 /* Pods-ticketmaster_ios-ticketmaster_iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ticketmaster_ios;
+			};
+			name = Debug;
+		};
+		F29BF9B62703550B0038F33F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13843660BB3FCE1DA13ED36B /* Pods-ticketmaster_ios-ticketmaster_iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FMEP8AZ5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.psdr3.ticketmaster-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ticketmaster_ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29BF985270355090038F33F /* Build configuration list for PBXProject "ticketmaster_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29BF9AC2703550B0038F33F /* Debug */,
+				F29BF9AD2703550B0038F33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29BF9AE2703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29BF9AF2703550B0038F33F /* Debug */,
+				F29BF9B02703550B0038F33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29BF9B12703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29BF9B22703550B0038F33F /* Debug */,
+				F29BF9B32703550B0038F33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29BF9B42703550B0038F33F /* Build configuration list for PBXNativeTarget "ticketmaster_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29BF9B52703550B0038F33F /* Debug */,
+				F29BF9B62703550B0038F33F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		805EFEA328074B1800618430 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		805EFEA428074B1800618430 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 805EFEA328074B1800618430 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F29BF982270355090038F33F /* Project object */;
+}
