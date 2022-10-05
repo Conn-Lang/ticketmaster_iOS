@@ -1,5 +1,6 @@
-# ticketmaster_iOS
+# Pirate Code
 A project from high school that is still currently being used today.
+Our working codename for the development of the project was ticketmaster, so the portion I worked on was ticketmaster_ios
 
 This is a project that I and 13 others developed in high school to give the faculty a way to reward the students for good behavior.
 The admin staff could then reward the faculty for effectively rewarding the students. The system was already in place but our Capstone class team moved it to be entirely digital.
