@@ -9,4 +9,4 @@ The specific branch that I worked on was the iOS app portion of the project. Thi
 
 The system, which is titled the Pirate Code, is still currently being used by the Pattonville High School to reward students and teachers.
 
-**The specific pods for the project are not uploaded into the repository, but they are present in the zip file, which is identical to the repository in every other way.**
+***The specific pods for the project are not uploaded into the repository, but they are present in the zip file, which is identical to the repository in every other way.***
